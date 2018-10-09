@@ -1,5 +1,33 @@
 /* Add here all your css styles (customizations) */
 
 .u-header__logo-img {
+  height: 100px;
+  -webkit-transition: .2s time;
+  -moz-transition: .2s time;
+  -ms-transition: .2s time;
+  -o-transition: .2s time;
+  transition: .2s time;
+}
+
+.js-header-change-moment .u-header__logo-img {
   height: 50px;
+  -webkit-transition: .2s time;
+  -moz-transition: .2s time;
+  -ms-transition: .2s time;
+  -o-transition: .2s time;
+  transition: .2s time;
+}
+.embed-responsive-16by9::before {
+  padding-top: 0;
+}
+
+.js-slide.slick-slide img {
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 450px) {
+  .u-header__logo-img {
+    height: 100px;
+  }
 }
